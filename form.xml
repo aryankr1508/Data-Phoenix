@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/form"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Users Details "
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textColor="#8B008B"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:hint="Enter Your Name"
+        android:textColorHint="#5633FF"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="textPersonName"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="41dp" />
+
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Enter Your Address"
+        android:inputType="textPostalAddress"
+        android:textColor="#2C0DC7"
+        android:textColorHint="#5633FF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="41dp" />
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:hint="Enter Your City name"
+        android:inputType="textAutoCorrect"
+        android:textColor="#2C0DC7"
+        android:fontFamily="sans-serif-condensed"
+        android:textColorHint="#5633FF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="41dp" />
+
+    <EditText
+        android:id="@+id/item"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:textColor="#2C0DC7"
+        android:textColorHint="#5633FF"
+        android:fontFamily="sans-serif-condensed"
+        android:filterTouchesWhenObscured="true"
+        android:clickable="true"
+        android:linksClickable="true"
+        android:focusableInTouchMode="true"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="41dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:onClick="data"
+        android:backgroundTint="#00FF00"
+        android:text="Submit" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="41dp" />
+
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:theme="@style/CardView.Dark"/>
+
+
+
+</LinearLayout>

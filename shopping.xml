@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+   android:orientation="vertical"
+    android:background="#00FFFF"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click on any pic"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="italic" />
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="200dp"
+        android:layout_height="191dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/books" />
+
+    <Space
+        android:layout_width="232dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"/>
+
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/electronic" />
+
+    <Space
+        android:layout_width="229dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/mensfashion" />
+
+
+
+</LinearLayout>
