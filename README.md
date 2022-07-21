@@ -1,6 +1,10 @@
 
 
 
+https://user-images.githubusercontent.com/67092427/180272548-055ae7ed-c2a8-48a0-8844-74064887667c.mp4
+
+
+
 *THIS PROJECT IS HIGHLY BASED ON THE APPLICATIONS OF FILE HANDLING.*
 
 *WE HAVE MADE AN APP WHICH ASKS USERS TO FIRSTLY LOGIN AND THEN ENTER THEIR DETAILS.*
@@ -15,7 +19,3 @@
 
 ![image](https://user-images.githubusercontent.com/67092427/156718258-d178e1f0-9082-4556-a382-dd2e01c68be7.png)
 ![image](https://user-images.githubusercontent.com/67092427/156718085-52895ac6-f26a-415b-9816-e3ea138b6dad.png)
-
-
-https://user-images.githubusercontent.com/67092427/180272324-407d4a8f-1303-4934-a8e8-eab2987b41ae.mp4
-
